@@ -133,7 +133,7 @@ By default, all content-switching virtual servers are set to have a blocklist of
 This means that all source IP addresses are allowed to access the content-switching virtual server, unless there is an entry in `SM_CL1009_IP_CONTROL`.
 To change the behavior of the content-switching virtual to be a allowlist, all you need to do is change the entry.
 
-If you change the behavior to be a `allowlist`, it results in all client IP addresses on the list to be blocked!
+If you change the behavior to be a `allowlist`, it results in all client IP addresses not on the list to be blocked!
 
 For example:
 ```
